@@ -347,7 +347,7 @@ function $HttpProvider() {
    *
    * Defaults to false. If no value is specified, returns the current configured value.
    *
-   * @param {boolean=} value If true, `$http` will return a normal promise without the `success` and `error` methods.
+   * @param {boolean=} value If true, `$http` will return a promise with the legacy `success` and `error` methods. 
    *
    * @returns {boolean|Object} If a value is specified, returns the $httpProvider for chaining.
    *    otherwise, returns the current configured value.
